@@ -6,38 +6,38 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/blog",
-      "dest": "/blogs.html"
+      "source": "/blog",
+      "destination": "/blogs.html"
     },
     {
-      "src": "/careers",
-      "dest": "/career.html"
+      "source": "/careers",
+      "destination": "/career.html"
     },
     {
-      "src": "/case-studies",
-      "dest": "/case studies.html"
+      "source": "/case-studies",
+      "destination": "/case studies.html"
     },
     {
-      "src": "/get-started",
-      "dest": "/get started.html"
+      "source": "/get-started",
+      "destination": "/get started.html"
     },
     {
-      "src": "/help-center",
-      "dest": "/help center.html"
+      "source": "/help-center",
+      "destination": "/help center.html"
     },
     {
-      "src": "/powerups",
-      "dest": "/powerups.html"
+      "source": "/powerups",
+      "destination": "/powerups.html"
     },
     {
-      "src": "/ai-helpers",
-      "dest": "/what is an AI helper.html"
+      "source": "/ai-helpers",
+      "destination": "/what is an AI helper.html"
     },
     {
-      "src": "/pricing",
-      "dest": "/get started.html"
+      "source": "/pricing",
+      "destination": "/get started.html"
     }
   ],
   "headers": [
