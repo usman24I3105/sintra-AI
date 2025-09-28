@@ -1,0 +1,28 @@
+{
+  "name": "sintra-website",
+  "version": "1.0.0",
+  "description": "Sintra AI Website - Your employees, on AI",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required for static site'",
+    "start": "echo 'Static site - serve index.html'",
+    "deploy": "vercel --prod",
+    "deploy:preview": "vercel"
+  },
+  "keywords": [
+    "ai",
+    "artificial-intelligence",
+    "business-automation",
+    "sintra",
+    "website"
+  ],
+  "author": "Sintra",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
