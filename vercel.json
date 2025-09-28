@@ -8,10 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/",
-      "dest": "/home page.html"
-    },
-    {
       "src": "/blog",
       "dest": "/blogs.html"
     },
